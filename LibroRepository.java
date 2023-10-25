@@ -2,8 +2,8 @@ import java.util.List;
 
 public interface LibroRepository {
     List<Libro> listarLibros();
-    Libro recuperarLibro(int isbn);
+    Libro recuperarLibro(String isbn);
     void agregarLibro(Libro libro);
-    void eliminarLibro(int isbn);
+    void eliminarLibro(String isbn);
 
 }
